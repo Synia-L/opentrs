@@ -22,7 +22,7 @@ static bool ascendingOrder(const MaxCorrStrcut a, const MaxCorrStrcut b) { retur
 class BaseTools
 {
 public:
-    //���㺺������
+
     int hanmingWeight(const uint8_t data);
     int hanmingWeight(const uint16_t data);
     int hanmingWeight(const uint32_t data);

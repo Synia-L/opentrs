@@ -62,7 +62,7 @@ double BaseTools::correlate(double* src1, double* src2, int len)
     }
     ave_src1 = sum_src1 / len;
     ave_src2 = sum_src2 / len;
-    // ����src1�ķ������src2�ķ���
+
     for (int i = 0; i < len; i++) {
         deviation_src2 += (src2[i] - ave_src2) * (src2[i] - ave_src2);
         deviation_src1 += (src1[i] - ave_src1) * (src1[i] - ave_src1);
@@ -96,7 +96,7 @@ double BaseTools::correlate(int* src1, float* src2, int len)
     }
     ave_src1 = sum_src1 / len;
     ave_src2 = sum_src2 / len;
-    // ����src1�ķ������src2�ķ���
+
     for (int i = 0; i < len; i++) {
         deviation_src2 += (src2[i] - ave_src2) * (src2[i] - ave_src2);
         deviation_src1 += (src1[i] - ave_src1) * (src1[i] - ave_src1);
@@ -130,7 +130,7 @@ double BaseTools::correlate(float* src1, float* src2, int len)
     }
     ave_src1 = sum_src1 / len;
     ave_src2 = sum_src2 / len;
-    // ����src1�ķ������src2�ķ���
+
     for (int i = 0; i < len; i++) {
         deviation_src2 += (src2[i] - ave_src2) * (src2[i] - ave_src2);
         deviation_src1 += (src1[i] - ave_src1) * (src1[i] - ave_src1);
